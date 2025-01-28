@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/interfaces.ts","./src/obj-typecheck.ts","./src/types.ts","./src/user.ts"],"version":"5.7.2"}
+{"root":["./src/interfaces.ts","./src/interfaces2.ts","./src/obj-typecheck.ts","./src/types-int.ts","./src/types-union.ts","./src/types.ts","./src/user.ts"],"version":"5.7.2"}

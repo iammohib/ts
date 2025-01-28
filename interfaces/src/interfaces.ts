@@ -1,13 +1,13 @@
-interface User {
+interface Usera {
   name: string;
   age: number;
 }
 
-const details = (stdObj: User) => {
+const details = (stdObj: Usera) => {
   console.log(`hi ${stdObj.name}/${stdObj.age}`);
 };
 
-const mohibs: User = {
+const mohibs: Usera = {
   name: "mohib",
   age: 23,
 };
