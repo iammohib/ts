@@ -1,14 +1,28 @@
-interface Usera {
+// people interface
+interface People {
   name: string;
   age: number;
+  greet: () => string;
 }
 
-const details = (stdObj: Usera) => {
-  console.log(`hi ${stdObj.name}/${stdObj.age}`);
+// check if adult
+const isAdultCheck = (person: People) => {
+  if (person.age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
-const mohibs: Usera = {
+// person object
+const person: People = {
   name: "mohib",
-  age: 23,
+  age: 21,
+  greet: () => {
+    return "hi";
+  },
 };
-details(mohibs);
+
+// using method to check if adult
+const test = isAdultCheck(person);
+console.log("Is person is adult?", test);
