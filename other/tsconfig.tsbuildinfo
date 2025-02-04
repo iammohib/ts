@@ -1,1 +1,1 @@
-{"root":["./src/array.ts","./src/q-1.ts","./src/syntax.ts"],"version":"5.7.3"}
+{"root":["./src/array.ts","./src/calc.imp.ts","./src/calculator.ts","./src/enums.ts","./src/enums2.ts","./src/exp.ts","./src/generics.ts","./src/generics2.ts","./src/imp.ts","./src/q-1.ts","./src/syntax.ts"],"version":"5.7.3"}
